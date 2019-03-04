@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+  margin: 0;
+  font-size: 1.2vw;
+}
+
+.title-text {
+  font-size: 18px;
+}
+
+.title-page {
+  background-color: #ffc107;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  max-width: 30vh;
+  height: auto;
+}
+
+header{
+  background-color: #ffc107;
+  padding: 2vh;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: #ffc107;
+  width: 100%;
+  padding: 1vh;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+textarea,input {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ffc107;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 6px;
+}
+
+input:focus {
+  border: 3px solid black;
+}
+textarea:focus {
+  border: 3px solid black;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+  
+select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2vw;
+}
+
+
+.container {
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border:1px solid #ffc107;
+}
+  
+.col-25 {
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+}
+  
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+  margin-right: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 1.2vh;
+  width: 20vh;
+  font-size: 1.1vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(7, 224, 0);
+  border: none;
+  border-radius: 8px;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 1.2vh;
+  width: 20vh;
+  font-size: 1.1vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+}
+
+.button1:hover {background-color: black}
+.button2:hover {background-color: black}
+
+.btnClass {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  max-width: 30vh;
+  height: auto;
+}
+

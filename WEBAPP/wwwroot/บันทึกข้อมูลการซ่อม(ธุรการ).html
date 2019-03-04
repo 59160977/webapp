@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/tmp.css">
+    <script src="../js/บันทึกข้อมูลการซ่อม(ธุรการ).js"></script>
+    <title>บันทึกข้อมูลการซ่อม(ธุรการ)</title>
+</head>
+<body>
+<header>
+    <div class="header">
+        <img src="../assets/logo.png" class="logo" alt="">
+    </div>
+</header>
+<ul>
+    <li><a href="./หน้าหลัก.html">หน้าหลัก</a></li>
+    <li><a href="./บันทึกลูกค้า.html">การซื้อรถ</a></li>
+    <li><a href="./บันทึกลูกค้า1.html">การขายรถ</a></li>
+    <li><a href="./บันทึกข้อมูลคู่ค้า.html">บันทึกคู่ค้าขายรถ</a></li>
+    <li><a href="./บันทึกลูกค้า2.html" class="active">การซ่อมรถ</a></li>
+    <li><a href="./การสต๊อก.html">การสต๊อกรถ</a></li>
+    <li><a href="./บันทึกลูกค้า3.html">การเดินทะเบียน</a></li>
+    <li><a href="./login.html">ออกจากระบบ</a></li>    
+</ul>
+<!-- --------code---------- -->
+<h3><u>บันทึกข้อมูลการซ่อม(ธุรการ)</u></h3>
+<section class="main">
+  <section>
+    <!-- column1 -->
+      <div class="column">
+          <label>ค้นหารายการซ่อม</label>
+          <br>
+          <input  style="width: 350px; height: 30px; font-size: 1.1vw;" type="text" name="searchrepair">
+          <button class="button3">ค้นหา</button>
+          <br><br>
+          <table>
+              <tr>
+                <th>รายการ</th>
+                <th>จำนวน</th>
+                <th>ราคา</th>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>                                                                                           
+          </table>
+      </div>
+      <!-- column2 -->
+      <div class="column">
+          <br>
+          <table>
+              <tr>
+                <th>เพิ่มรายการสั่งซ่อม</th>
+              </tr>
+              <tr>
+                <td>
+                <label style="margin-left: 1vw;">รายการ</label><br>
+                <input id="list" type="text" name="list" style="margin-left: 1vw; width: 480px;">
+                <br>
+                <label style="margin-left: 1vw;">จำนวน</label><br>
+                <input id="amount" type="text" name="list" style="margin-left: 1vw; width: 480px;">
+                <br>
+                <label style="margin-left: 1vw;">ราคา</label><br>
+                <input id="price" type="text" name="list" style="margin-left: 1vw; width: 480px;">
+                <br><br>
+                <center>
+                <button onclick="checkText()" class="button3">เพิ่มรายการ</button>
+                </center>
+                <br>
+                </td>
+              </tr>
+          </table>
+              <label style="margin-left: 2vw;">ราคารวม</label><br>
+              <input type="text" name="total" style="margin-left: 2vw; width: 480px;">                        
+      </div>
+      <div class="column">
+            
+        </div>
+
+        <div class="column" align="right">
+            <button  class="button1" onclick="location.href('./ใบเสร็จการซ่อม.html')">ต่อไป</button>
+        </div>
+  </section>
+</section>
+
+
+<!-- footer -->
+
+<div class="footer">
+    © 2019 Diamond Development
+</div>
+</body>
+</html>
